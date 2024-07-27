@@ -42,7 +42,7 @@ const WeatherApp = () => {
           Search
         </button>
       </div>
-      {loading && <p className="loading-message">Loading data…</p>}
+      {loading && <p>Loading data…</p>}
       {weatherData && !loading && (
         <div className="weather-cards">
           <div className="weather-card">
